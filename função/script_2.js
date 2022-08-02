@@ -1,4 +1,29 @@
 /*
+    Function() constructor
+
+    * expressão new
+    * criar um novo objeto
+    * this keyword
+    
+*/
+
+/*
+function Person(name) {
+    this.name = name
+    this.walk = function() {
+        return  this.name + " andando"
+    }
+}
+const Arthur = new Person('Arthur')
+const jp = new Person('jp')
+console.log(Arthur.walk())
+console.log(jp.walk())
+*/
+
+//___________________________________________________\\
+
+
+/*
 
     Prototype
 
@@ -140,6 +165,7 @@ console.log(Array.from(word))
 
 // Manipulando Arrays
 
+
 let techs = ["html", "css", "js"]
 
 
@@ -160,3 +186,4 @@ let index = techs.indexOf('html')
 
 console.log(techs)
 console.log(index, 1)
+
